@@ -33,7 +33,7 @@ func Read(filename string) ([]Line, error) {
 	for _, line := range lines {
 		id, err := strconv.ParseInt(line[0], 10, 32)
 		if err != nil {
-			panic("Error reading file")
+			return []Line{}, err
 		}
 
 		newLine := Line{
