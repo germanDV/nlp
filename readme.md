@@ -8,6 +8,13 @@ Natural Language Password generator based on **diceware**.
 By default, it generates a 4-word password.
 This can be overridden by simply passing the desired number of words as an argument.
 
+```sh
+# generate a 4-word password
+$ go run main.go
+
+# generate a 6-word password
+$ go run main.go 6
+```
 
 ## Wordlists
 
