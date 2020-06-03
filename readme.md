@@ -16,6 +16,14 @@ $ go run main.go
 $ go run main.go 6
 ```
 
+## Tests
+
+Run all tests:
+
+```sh
+$ go test ./...
+```
+
 ## Wordlists
 
 The idea behind having 2 wordlists is that, eventually, the _4-dice.csv_ list will only contain adjectives and the _5-dice.csv_ nouns; so that two words form an adjective-noun pair, making it easier to remember passwords.
